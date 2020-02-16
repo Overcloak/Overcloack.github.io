@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/Contacto.css">
+    <script defer src="../js/all.js"></script>
+  </head>
+  <body>
+    <button id="back-to-top-btn" onclick="location.href = '#'"><i class="fas fa-arrow-up"></i></button>
+    <div class="container px-sm-0 fixed-top">
+      <div class="row">
+        <nav class="navbar navbar-expand-md navbar-dark bg-info mx-auto col-lg-12">
+          <span class="navbar-brand"></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center mx-auto mx-sm-0">
+              <li class="nav-item pr-md-0 pr-lg-4">
+                <a class="nav-link nav-link-white" href="Inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item pr-md-0 pr-lg-4">
+                <a class="nav-link nav-link-white" href="Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item pr-md-0 pr-lg-4">
+                <a class="nav-link nav-link-white" href="Devocionales.html">Devocionales</a>
+              </li>
+              <li class="nav-item active pr-md-0 pr-lg-4">
+                <a class="nav-link font-weight-bold" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="mt-2 mt-md-0 ml-auto">
+              <div class="form-row">
+                <div class="col-10 col-md-9 mr-lg-0">
+                  <input class="form-control" type="text" placeholder="Buscar" aria-label="Buscar">
+                </div>
+                <div class="col-2 col-md-3">
+                    <button class="btn btn-primary" type="submit">Buscar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main role="main">
+      <div class="container">
+          <div class="text-center contacto">
+            <h2 class="mb-4 display-4">Información de contacto</h2>
+            <p><strong>Dirección: </strong>Emilio Mitre 2759 - Moreno</p>
+            <p><strong>Teléfono: </strong>(+54) 11 1234-5678</p>
+          </div>
+        </div>
+        <div class="container my-5 text-white">
+          <div class="row">
+            <form class="col-md-8 mx-auto bg-info p-5" action="" method="post">
+              <h3 class="h1 mb-4"><strong>Formulario de contacto</strong></h3>
+              <div class="form-group">
+                <label>Nombre y apellido:</label>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="mt-4" for="correo">Email:</label>
+                  <input type="email" class="form-control" name="correo" placeholder="Ingrese su email">
+                </div>
+                <div class="form-group">
+                  <label class="mt-2" for="consulta">Consulta:</label>
+                  <textarea class="form-control" name="consulta" rows="3" placeholder="Ingrese su consulta"></textarea>
+                </div>
+              </div>
+              <div class="text-center mt-4 mx-auto">
+                <button type="submit" class="btn btn-outline-light">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </main>
+    <footer class="footer fixed-bottom py-3">
+      <p class="text-center mb-0">&copy; 2020 paginaweb.com</p>
+    </footer>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
+  </body>
+</html>
